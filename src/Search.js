@@ -200,6 +200,13 @@ function Search() {
 					</Form.Group>
 				</Form>
 			</Container>
+			<div>
+				<p>City: {weather.name}</p>
+				<p>Temperature: {weather.main.temp}</p>
+				<p>High: {weather.main.temp_min}</p>
+				<p>Low: {weather.main.temp_max}</p>
+				<p>Wind Speed: {weather.wind.speed}</p>
+			</div>
 
 			{/* <p>{weather.main.temp}</p> */}
 		</div>
